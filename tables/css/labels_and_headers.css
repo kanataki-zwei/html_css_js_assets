@@ -1,0 +1,136 @@
+/******Used as Label backgrounds******/
+
+.smalltable01 {
+    background-color: green;
+    color: white;
+    max-width: 200%;
+    padding: 5px 8px 4px;
+    text-align: center;
+    font-family: Century Gothic;
+    font-size: 26px;
+    border-radius: 10px;
+}
+
+.smalltable02 {
+    background-color: #f48342;
+    color: white;
+    max-width: 200%;
+    padding: 5px 8px 4px;
+    text-align: center;
+    font-family: Century Gothic;
+    font-size: 26px;
+    border-radius: 10px;
+}
+
+.smalltable03 {
+    background-color: #688433;
+    color: white;
+    max-width: 200%;
+    padding: 5px 8px 4px;
+    text-align: center;
+    font-family: Century Gothic;
+    font-size: 26px;
+    border-radius: 10px;
+}
+
+
+/**header Top of dashboard************************************************/
+
+h2 {
+    text-align: center;
+    color: white;
+    background-color: 12406a;
+    font-family: Century Gothic;
+    font-size: 18px;
+    height: 30px;
+    font-weight: bold;
+}
+
+/*******Small white style for Text*********/
+.whiteh2 {
+    text-align: center;
+    color: left;
+    font-family: Century Gothic;
+    font-size: 16px;
+    height: 25px;
+    font-weight: bold;
+    color:white;
+}
+
+/**Small header2 Top of Tab************************************************/
+.smallh2 {
+    text-align: center;
+    color: left;
+    font-family: Century Gothic;
+    font-size: 16px;
+    height: 25px;
+    font-weight: bold;
+    color:#12406a;
+}
+
+/**small header3************************************************/
+.smallh3 {
+    text-align: center;
+    color: left;
+    font-family: Century Gothic;
+    font-size: 16px;
+    height: 25px;
+    font-weight: bold;
+    color:#005CA7;
+}
+
+.smallh4 {
+    text-align: center;
+    color: left;
+    font-family: Century Gothic;
+    font-size: 16px;
+    height: 25px;
+    font-weight: bold;
+    color:#8e1d1d;
+}
+
+.boxtitlered {
+    color:white;
+    background: #ff0000;
+    text-align: center;
+    color: left;
+    font-family: Century Gothic;
+    font-size: 16px;
+    height: 25px;
+    font-weight: bold;
+}
+
+.boxtitleorange {
+    color:white;
+    background: #d64a0e;
+    text-align: center;
+    color: left;
+    font-family: Century Gothic;
+    font-size: 16px;
+    height: 25px;
+    font-weight: bold;
+}
+
+.boxtitleblue {
+    color:white;
+    background: blue;
+    text-align: center;
+    color: left;
+    font-family: Century Gothic;
+    font-size: 16px;
+    height: 25px;
+    font-weight: bold;
+}
+
+.boxtitlegreen {
+    color:white;
+    background: green;
+    text-align: center;
+    color: left;
+    font-family: Century Gothic;
+    font-size: 16px;
+    height: 25px;
+    font-weight: bold;
+}
+
+/***********************************************/

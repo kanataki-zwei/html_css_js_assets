@@ -1,0 +1,416 @@
+/*Envelope Tables [Basically containers to hold a bunch of stuff]*/
+
+
+/*I mostly use these as containers inside tabs*/
+
+
+/**table with no borders Center Aligned*******************************/
+
+.table_no_border table {
+    border: 2px black;
+    background-color: #D8F0DA;
+    background: transparent;
+    opacity: 0.97;
+    border-collapse: separate;
+    border-spacing: 0;
+    width: 80%;
+}
+
+.table_no_border th {
+    text-align: center;
+    vertical-align: middle;
+    background-color: white;
+    background: transparent;
+}
+
+.table_no_border td {
+    text-align: center;
+    vertical-align: middle;
+    height: 20px;
+    border-left: 0px solid #A9A7A1;
+    border-right: 0px solid #A9A7A1;
+    border-top: 0px solid #A9A7A1;
+    border-bottom: 0px solid #A9A7A1;
+}
+
+
+/*************************************************/
+
+
+/*******No border no color.*************************************/
+
+.table_no_border_nocolor tr {
+    background: white;
+    border: 1px none #B3B3B3;
+    font-family: Century Gothic;
+    font-size: 12px;
+    /*    font-weight: bold;*/
+    text-align: center;
+    color: white;
+}
+
+.table_no_border_nocolor td {
+    text-align: center;
+    vertical-align: middle;
+    height: 20px;
+    border-left: 0px solid #A9A7A1;
+    border-right: 0px solid #A9A7A1;
+    border-top: 0px solid #A9A7A1;
+    border-bottom: 0px solid #A9A7A1;
+}
+
+
+/*************************************************/
+
+
+/**table with no borders Left Aligned*******************************/
+
+
+/*I use this table when I have to use two tables instead of one for fixed leftmost column
+if I am working in an environment where it's impossible to use sticky columns. The left 
+table acts as the sticky header.*/
+
+.table_no_border_left table {
+    border: 2px black;
+    background-color: #D8F0DA;
+    background: transparent;
+    opacity: 0.97;
+    border-collapse: separate;
+    border-spacing: 0;
+    width: 80%;
+}
+
+.table_no_border_left th {
+    text-align: center;
+    vertical-align: left;
+    background-color: white;
+    background: transparent;
+}
+
+.table_no_border_left td {
+    text-align: left;
+    vertical-align: middle;
+    height: 20px;
+    border-left: 0px solid #A9A7A1;
+    border-right: 0px solid #A9A7A1;
+    border-top: 0px solid #A9A7A1;
+    border-bottom: 0px solid #A9A7A1;
+}
+
+
+/*************************************************/
+
+
+/**table with no borders align top***********************************/
+
+.table_no_border_top table {
+    border: 2px black;
+    background-color: #D8F0DA;
+    background: transparent;
+    opacity: 0.97;
+    border-collapse: separate;
+    border-spacing: 0;
+    width: 80%;
+}
+
+.table_no_border_top td {
+    height: 10px;
+    padding: 15px;
+}
+
+
+/*************************************************/
+
+
+/**table with borders align top***********************************/
+
+.table_with_border_top table {
+    border-left: 1px solid #A9A7A1;
+    border-right: 1px solid #A9A7A1;
+    border-top: 1px solid #A9A7A1;
+    border-bottom: 1px solid #A9A7A1;
+    background-color: #D8F0DA;
+    background: transparent;
+    opacity: 0.97;
+    width: 100%;
+}
+
+.table_no_border_top th {
+    text-align: center;
+    vertical-align: middle;
+    background-color: white;
+    background: transparent;
+}
+
+.table_with_border_top td {
+    padding: 15px;
+    border-bottom: 1px solid #A9A7A1;
+}
+
+
+/*************************************************/
+
+
+/*****************Main Tables***********************/
+
+
+/*****************Main Tables***********************/
+
+
+/** Maroon table **************************************/
+
+.table_maroon table th {
+    background: #bf2427;
+    border: 1px none #B3B3B3;
+    font-family: Century Gothic;
+    font-size: 12px;
+    /*    font-weight: bold;*/
+    text-align: center;
+    color: white;
+}
+
+.table_maroon table td {
+    border-left: 1px solid #A9A7A1;
+    border-right: 1px solid #A9A7A1;
+    border-top: 1px solid #A9A7A1;
+    border-bottom: 1px solid #A9A7A1;
+    height: 20px;
+    font-size: 14px;
+    /*padding-left: 10px;*/
+    /*vertical-align: middle; */
+}
+
+
+/** Blue Borderless Table **************************************/
+
+.table_blue table th {
+    background: rgba(0, 0, 102, .9);
+    border: 1px none #B3B3B3;
+    font-family: Century Gothic;
+    font-size: 12px;
+    /*    font-weight: bold;*/
+    text-align: center;
+    color: white;
+}
+
+.table_blue table td {
+    border-left: 1px #A9A7A1;
+    border-right: 1px #A9A7A1;
+    border-top: 1px #A9A7A1;
+    border-bottom: 1px #A9A7A1;
+    height: 20px;
+    font-size: 14px;
+}
+
+
+/** Blue Table With Border **************************************/
+
+.table_blue_withborder table th {
+    background: rgb(0, 0, 102);
+    border: 1px none #B3B3B3;
+    font-family: Century Gothic;
+    font-size: 12px;
+    text-align: center;
+    color: white;
+}
+
+.table_blue_withborder table td {
+    border-left: 1px solid rgb(106, 125, 147);
+    border-right: 1px solid rgb(106, 125, 147);
+    border-top: 1px solid rgb(106, 125, 147);
+    border-bottom: 1px solid rgb(106, 125, 147);
+    height: 20px;
+    font-size: 14px;
+}
+
+
+/** Red Borderless Table **************************************/
+
+.table_red table th {
+    background: rgba(255, 0, 0, 1);
+    border: 1px none #B3B3B3;
+    font-family: Century Gothic;
+    font-size: 12px;
+    /*    font-weight: bold;*/
+    text-align: center;
+    color: white;
+}
+
+.table_red table td {
+    border-left: 1px #A9A7A1;
+    border-right: 1px #A9A7A1;
+    border-top: 1px #A9A7A1;
+    border-bottom: 1px #A9A7A1;
+    height: 20px;
+    font-size: 14px;
+}
+
+
+/** Green Table **************************************/
+
+.table_green table th {
+    background: rgb(110, 237, 26);
+    border: 1px none rgb(154, 168, 116);
+    font-family: Century Gothic;
+    font-size: 12px;
+    /*    font-weight: bold;*/
+    text-align: center;
+    color: white;
+}
+
+.table_green table td {
+    border-left: 1px rgb(1, 2, 0);
+    border-right: 1px rgb(1, 2, 0);
+    border-top: 1px rgb(1, 2, 0);
+    border-bottom: 1px rgb(1, 2, 0);
+    height: 20px;
+    font-size: 14px;
+}
+
+
+/**********************************************/
+
+/*****table_one******/
+.table_one {
+    background-color:white;
+    border-collapse: collapse;
+    border-radius: .5em;
+    box-shadow: 5px 5px 5px 5px #d6d6d6;
+    -moz-box-shadow: 5px 5px 5px 5px #d6d6d6;
+    -webkit-box-shadow: 0 0px 40px 0px #d6d6d6;
+    -o-box-shadow: 5px 5px 5px 5px #d6d6d6;
+    -ms-box-shadow: 5px 5px 5px 5px #d6d6d6;
+    }
+.table_one table th {
+    background: #bf2427;
+    opacity: 1 !important;
+    /**border: 0px none #B3B3B3;**/
+    font-family: Century Gothic;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+
+
+.table_one table td {
+    /**border-left: 1px solid #A9A7A1;
+    border-right: 1px solid #A9A7A1;
+    border-top: 1px solid #A9A7A1;
+    border-bottom: 1px solid #A9A7A1;**/
+    border-bottom: 2px solid #dceaed;
+    height: 20px;
+    font-size: 14px;
+    /*padding-left: 10px;*/
+    /*vertical-align: middle; */
+} 
+
+/******************************************************************/
+/*****table_two******/
+.table_two {
+    background-color:white;
+    border-collapse: collapse;
+    border-radius: .5em;
+    box-shadow: 5px 5px 5px 5px #d6d6d6;
+    -moz-box-shadow: 5px 5px 5px 5px #d6d6d6;
+    -webkit-box-shadow: 0 0px 40px 0px #d6d6d6;
+    -o-box-shadow: 5px 5px 5px 5px #d6d6d6;
+    -ms-box-shadow: 5px 5px 5px 5px #d6d6d6;
+    }
+.table_two table th {
+    background: green;
+    opacity: 1 !important;
+    /**border: 0px none #B3B3B3;**/
+    font-family: Century Gothic;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+
+
+.table_two table tr {
+    background: white;
+    
+}
+
+.table_two table tr:hover {
+    background-color: lightyellow;
+    
+}
+
+
+.table_two table td {
+    /**border-left: 1px solid #A9A7A1;
+    border-right: 1px solid #A9A7A1;
+    border-top: 1px solid #A9A7A1;
+    border-bottom: 1px solid #A9A7A1;**/
+    border-bottom: 2px solid #dceaed;
+    height: 20px;
+    font-size: 14px;
+    /*padding-left: 10px;*/
+    /*vertical-align: middle; */
+} 
+
+.table_two table td:hover {
+    background-color: lightblue;
+    visibility: visible;
+    
+}
+
+.table_two td, th {
+  position: relative;
+}
+
+.table_two td:hover::after,
+.table_two th:hover::after {
+  content: "";
+  position: absolute;
+  background-color: lighblue;
+  left: 0;
+  top: -5000px;
+  height: 10000px;
+  width: 100%;
+  z-index: -1;
+}
+
+
+
+
+/******Small Colored Tables******/
+
+
+/*****Tiny Small Colored Tables */
+
+.tinytable01 {
+    background-color: rgba(0, 0, 102, .9);
+    color: white;
+    width: 30%;
+    margin-left: 40%;
+    text-align: center;
+    font-family: Century Gothic;
+    font-size: 26px;
+    border-radius: 10px;
+}
+
+.tinytable02 {
+    background-color: rgba(0, 0, 102, .9);
+    color: white;
+    width: 30%;
+    margin-left: 40%;
+    text-align: center;
+    font-family: Century Gothic;
+    font-size: 26px;
+    border-radius: 10px;
+}
+
+.tinytable03 {
+    background-color: rgba(0, 0, 102, .9);
+    color: white;
+    width: 30%;
+    margin-left: 40%;
+    text-align: center;
+    font-family: Century Gothic;
+    font-size: 26px;
+    border-radius: 10px;
+}

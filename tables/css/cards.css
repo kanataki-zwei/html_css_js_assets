@@ -1,0 +1,185 @@
+/*Small coloured cards to show specific figures/info*/
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 70%;
+    height: 100%;
+    /**padding: 10vh 3vw 10vh 3vw;**/
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+    padding: 10vh 3vw 10vh 3vw;
+}
+
+.cardgreen {
+    background-color: green;
+    color: white;
+    max-width: 200%;
+    max-height: 200%;
+    padding: 10vh 3vw 10vh 3vw;
+    text-align: center;
+    font-family: Century Gothic;
+    font-size: 26px;
+    border-radius: 10px;
+}
+
+.cardblue {
+    background-color: rgb(30, 154, 208);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 70%;
+    height: 100%;
+    /**border-left: 4px solid #0a5b54;**/
+    /**padding: 10vh 3vw 10vh 3vw;**/
+}
+
+.cardblue:hover {
+    box-shadow: 0 8px 16px 0 rgb(30, 154, 208);
+}
+
+.container {
+    padding: 10vh 3vw 10vh 3vw;
+}
+
+.cardvalencia {
+    background-color: rgb(202, 64, 38);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 70%;
+    height: 100%;
+    /**border-left: 4px solid rgb(30, 154, 208);**/
+    /**padding: 10vh 3vw 10vh 3vw;**/
+}
+
+.cardvalencia:hover {
+    box-shadow: 0 8px 16px 0 rgb(202, 64, 38);
+}
+
+.container {
+    padding: 10vh 3vw 10vh 3vw;
+}
+
+.cardsun {
+    background-color: rgb(255, 166, 20);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 70%;
+    height: 100%;
+    /**border-left: 4px solid rgb(30, 154, 208);**/
+    /**padding: 10vh 3vw 10vh 3vw;**/
+}
+
+.cardsun:hover {
+    box-shadow: 0 8px 16px 0 rgb(255, 166, 20);
+}
+
+.container {
+    padding: 10vh 3vw 10vh 3vw;
+}
+
+.cardtwine {
+    background-color: rgb(189, 142, 98);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 70%;
+    height: 100%;
+    /**padding: 10vh 3vw 10vh 3vw;**/
+}
+
+.cardtwine:hover {
+    box-shadow: 0 8px 16px 0 rgb(189, 142, 98);
+}
+
+.container {
+    padding: 10vh 3vw 10vh 3vw;
+}
+
+.cardpurple {
+    background-color: rgb(105, 93, 133);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 70%;
+    height: 100%;
+    /**padding: 10vh 3vw 10vh 3vw;**/
+}
+
+.cardpurple:hover {
+    box-shadow: 0 8px 16px 0 rgb(105, 93, 133);
+}
+
+.container {
+    padding: 10vh 3vw 10vh 3vw;
+}
+
+.cardchilla {
+    background-color: rgb(146, 138, 153);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 70%;
+    height: 100%;
+    /**padding: 10vh 3vw 10vh 3vw;**/
+}
+
+.cardchilla:hover {
+    box-shadow: 0 8px 16px 0 rgb(146, 138, 153);
+}
+
+.container {
+    padding: 10vh 3vw 10vh 3vw;
+}
+
+.cardballet {
+    background-color: rgb(245, 201, 202);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 70%;
+    height: 100%;
+    /**padding: 10vh 3vw 10vh 3vw;**/
+}
+
+.cardballet:hover {
+    box-shadow: 0 8px 16px 0 rgb(245, 201, 202);
+}
+
+.container {
+    padding: 10vh 3vw 10vh 3vw;
+}
+
+.cardberry {
+    background-color: rgb(188, 95, 106);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 70%;
+    height: 100%;
+    /**padding: 10vh 3vw 10vh 3vw;**/
+}
+
+.cardberry:hover {
+    box-shadow: 0 8px 16px 0 rgb(188, 95, 106);
+}
+
+.container {
+    padding: 10vh 3vw 10vh 3vw;
+}
+
+.cardjade {
+    background-color: rgb(10, 91, 84);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 70%;
+    height: 100%;
+    /**padding: 10vh 3vw 10vh 3vw;**/
+}
+
+.cardjade:hover {
+    box-shadow: 0 8px 16px 0 rgb(10, 91, 84);
+}
+
+.container {
+    padding: 10vh 3vw 10vh 3vw;
+}
